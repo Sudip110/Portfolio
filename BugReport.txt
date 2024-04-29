@@ -1,0 +1,2 @@
+1. sidebar disappearing after clicking anywhere other than the menuItem in mobile view [Fixed 29-04-2024].
+   
