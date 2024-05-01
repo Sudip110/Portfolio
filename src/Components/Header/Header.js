@@ -10,7 +10,7 @@ function Header() {
         setMenuOpen(!menuOpen);
     }
     return (
-        <div class=" top-0 ">
+        <div class=" top-0 sticky">
             <nav role="navigation" class=""> 
                {/* Menu button on medium and smaller screens */}
                 <button class={` z-20 lg:hidden  peer  relative transition delay-150 duration-300` } onClick={handleClickMenu}>
