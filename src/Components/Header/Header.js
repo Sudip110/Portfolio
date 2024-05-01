@@ -18,7 +18,7 @@ function Header() {
                 </button>
 
                 {/* Navigation bar/Sidebar */}
-                <div class="z-30 text-gray-500 lg:p-2 lg:static fixed top-0 -left-96 lg:left-0 lg:h-12 h-screen w-1/4 lg:w-screen bg-ivory-white shadow-2xl lg:shadow-sm peer-focus:left-0 peer:transition ease-out delay-150 duration-500">
+                <div class="z-30 text-gray-500 lg:p-2 lg:static fixed top-0 -left-96 lg:left-0 lg:h-12 h-screen w-1/2 lg:w-screen bg-ivory-white shadow-2xl lg:shadow-sm peer-focus:left-0 peer:transition ease-out delay-150 duration-500">
                    
                     <div class="flex lg:flex-row flex-col lg:items-center justify-center gap-4"> 
                         

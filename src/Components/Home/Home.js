@@ -2,8 +2,8 @@ import React from 'react'
 import profilePic from '../../Assets/DP.png'
 function Home() {
   return (
-    <div class=" -z-10 relative md:h-screen flex  lg:flex-row flex-col lg:mt-24 lg:items-start items-center justify-center bg-ivory-white">
-        <div class=" fixed z-0 lg:left-12 lg:top-24 md:bottom-64 bottom-24 md:p-5 p-10  m-5 text-left lg:p-5 lg:ml-12 ml-10 lg:pl-10 lg:h-80  md:h-96">
+    <div class=" -z-10 relative flex  lg:flex-row flex-col lg:mt-24 lg:items-start items-center justify-center bg-ivory-white ">
+        <div class=" fixed z-0 lg:left-12 lg:top-24 md:bottom-44 bottom-24  p-10  m-5 text-left lg:p-5 lg:ml-12 ml-10 md:ml-24 g:pl-10 lg:h-80  md:h-96">
             <h2 class=" text-gray-800 text-lg mb-6 font-medium font-Sans">Hey I'm Sudipto Mahapatra</h2>
             <h1 class=" text-violet-600 text-3xl font-extrabold font-Montserrat">Front<span class="text-3xl font-extrabold text-gray-800  font-Montserrat">end</span></h1>
             <h1 class=" text-gray-800 text-3xl font-extrabold font-Montserrat">Developer</h1>
