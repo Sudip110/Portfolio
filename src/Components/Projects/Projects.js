@@ -11,8 +11,8 @@ function Projects() {
             image:netflixCloneImg,
             description:"A UI clone of Netflix, mirrors layout of the popular streaming platform, design, and functionality, offering users a familiar experience with diverse content.",
             technologies:["React","CSS"],
-            deploy:" https://lnkd.in/gQVvuuDz",
-            git:" https://lnkd.in/gebmrUPP",
+            deploy:"netflix-clone-2dab7.firebaseapp.com",
+            git:"https://github.com/Sudip110/Netflix-clone",
 
         },
         {
@@ -22,7 +22,7 @@ function Projects() {
             description:"A Gmail UI clone, mimics popular mailing service's interface, enabling sign-in, compose, send, and inbox features, delivering a familiar email management experience.",
             technologies:["React","Redux","CSS"],
             deploy:"https://lnkd.in/gg4HexTW",
-            git:"https://lnkd.in/g5fisFHy",
+            git:"gmail-clone-iz5pp8nvg-sudipto-mahapatras-projects.vercel.app",
 
         },
         {
