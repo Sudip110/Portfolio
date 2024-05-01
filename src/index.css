@@ -11,6 +11,16 @@
     src: url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap);
   }
 }
+
+@layer base {
+  @font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    /* font-weight: 400; */
+    font-display: swap;
+    src: url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap);
+  }
+}
 *
 {
   margin: 0;

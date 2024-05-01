@@ -50,7 +50,7 @@ function Header() {
                         </div>
                 </div>
 
-                <div class={`z-5 lg:hidden fixed top-0 left-0 w-screen h-screen bg-gray-800 bg-opacity-30 opacity-0 peer-focus:opacity-100 transition duration-500 delay-100`}></div>
+                <div class={`z-15 lg:hidden fixed top-0 left-0 w-screen h-screen bg-gray-800 bg-opacity-50 blur-lg opacity-0 peer-focus:opacity-100 transition duration-500 delay-100`}></div>
             </nav>
         </div>
     )

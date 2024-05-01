@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     fontFamily:
     {
-      "Montserrat":["Montserrat"]
+      "Montserrat":["Montserrat"],
+      "Sans":["Work Sans"],
     },
     extend: {
       colors: {
