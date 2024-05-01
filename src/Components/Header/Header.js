@@ -4,11 +4,13 @@ import MenuIcon from '@mui/icons-material/Menu';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
 import AccountTreeOutlinedIcon from '@mui/icons-material/AccountTreeOutlined';
+import { useNavigate } from "react-router-dom";
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
     const handleClickMenu = () => {
         setMenuOpen(!menuOpen);
     }
+    const navigate = useNavigate();
     return (
         <div class=" top-0 sticky">
             <nav role="navigation" class=""> 
@@ -34,7 +36,7 @@ function Header() {
                         {/* Home section */}
                         <div class="flex  cursor-pointer lg:h-fit h-12 lg:bg-ivory-white bg-whitesmoke shadow-md lg:shadow-none rounded-md lg:rounded-none gap-2 text-base items-center pl-2 lg:hover:text-violet-500">
                             <div  class="lg:hidden"><HomeOutlinedIcon /></div>
-                            <button class="lg:focus:text-violet-500  font-medium">Home</button>
+                            <button onClick={()=>navigate("/")} class="lg:focus:text-violet-500  font-medium">Home</button>
                         </div>
 
                         {/* About Section */}
@@ -46,7 +48,7 @@ function Header() {
                         {/* Project Section */}
                         <div class="flex cursor-pointer lg:h-fit h-12  lg:bg-ivory-white bg-whitesmoke  shadow-md lg:shadow-none rounded-md lg:rounded-none gap-2 text-base items-center pl-2 lg:hover:text-violet-500" >
                              <div  class="lg:hidden "><AccountTreeOutlinedIcon/></div>
-                            <button class="lg:focus:text-violet-500  font-medium">Projects</button></div>
+                            <button onClick={()=>navigate("/projects")} class="lg:focus:text-violet-500  font-medium">Projects</button></div>
                         </div>
                 </div>
 
