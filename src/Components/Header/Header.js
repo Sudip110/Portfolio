@@ -42,7 +42,7 @@ function Header() {
                         {/* About Section */}
                         <div class="flex cursor-pointer lg:h-fit h-12 lg:bg-ivory-white bg-whitesmoke  shadow-md lg:shadow-none rounded-md lg:rounded-none gap-2 text-base items-center pl-2 lg:hover:text-violet-500">
                             <div  class="lg:hidden  "><Person2OutlinedIcon/></div>
-                            <button class="lg:focus:text-violet-500  font-medium">About</button>
+                            <button onClick={()=>navigate("/about")} class="lg:focus:text-violet-500  font-medium">About</button>
                         </div>
 
                         {/* Project Section */}
